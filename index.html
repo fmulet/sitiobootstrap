@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<!--TÍTULO -->
+	<title>CIISA HOT | Inicio</title>
+
+	<!--METAS PARA LA NAVEGACIÓN Y DESCRIPCIÓN DEL SITIO -->
+	<meta charset="utf-8">
+	<meta name="description" content="La comida rápida número 1 de Chile" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+
+    <!--FAVICON -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+	<!--CSS DE BOOTSTRAP -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!--CSS CON FUENTES DE ÍCONOS DE FONT AWESOME -->
+	<link href="css/all.min.css" rel="stylesheet">
+
+	<!--FUENTE DE LETRA DEL SITIO -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+	<!--SCRIPT JAVASCRIPT PARA DESLIZAMIENTO DEL MENÚ EN FORMATO RESPONSIVO MÓVIL -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--CÓDIGO DE CSS PARA CAMBIAR CIERTOS ESTILOS PREDETERMINADOS DE BOOTSTRAP -->
+  <style>
+	body {
+	  font-family: 'Source Sans Pro', sans-serif;
+	}
+	a{color: white;}
+	.menu a{color: black;}
+	a:hover{color: green;
+			text-decoration: none;}
+  </style>
+
+
+</head>
+
+<body>
+
+	<!--CABECERA -->
+       <header>
+
+			<ul class="menu my-3 d-block d-md-flex text-center list-unstyled">
+				
+				<li class="ml-2 m-md-auto">
+					<a href="index.html" class="logo"><img src="logo.png" alt="Logo Ciisa Hot" width="140" class="img-fluid"></a>
+				</li>
+	
+				<li class="ml-auto my-auto">
+					<i class="fa fa-map-marker align-middle text-danger mr-1"></i>
+					<span class="font-weight-bold" ><a href="https://www.google.com/maps/place/Prat+240,+Quillota,+Valpara%C3%ADso/@-32.8770728,-71.2478883,17z/data=!3m1!4b1!4m5!3m4!1s0x9689cd9c81f28829:0xea37883444701e6a!8m2!3d-32.8770728!4d-71.2456996" target="_blank">Prat 240, Quillota</a></span>
+				</li>
+				
+				<li class="ml-3 my-auto">
+					<i class="fa fa-phone align-middle text-danger mr-1"></i>
+					<span class="font-weight-bold"><a href="tel:332416798">332416798</a></span>
+				</li>
+
+				<li class="ml-3 my-auto">
+					<i class="fab fa-whatsapp align-middle text-danger mr-1"></i>
+					<span class="font-weight-bold"><a href="https://api.whatsapp.com/send?phone=56912345678&text=Hola, quiero hacer una consulta" target="_blank">+56912345678</a></span>
+				</li>
+
+				<li class="ml-3 my-auto mr-auto">
+					<i class="fas fa-envelope align-middle text-danger mr-1"></i>
+					<span class="font-weight-bold"><a href="mailto:contacto@ciisahot.cl"> contacto@ciisahot.cl</a></span>
+				</li>
+
+			</ul>
+		</header>
+		
+		<!--NAVEGADOR -->
+
+		<nav class="navbar navbar-expand-md bg-success navbar-dark">
+		
+			<button class="navbar-toggler bg-dark text-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+					
+		   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mt-3 mt-md-0 mx-auto">
+					<li class="nav-item"><a href=""
+									class="nav-link font-weight-bold active">Inicio</a></li>
+					<li class="nav-item ml-md-5"><a href="index.html" class="nav-link font-weight-bold">Nuestros Platos</a></li>
+					<li class="nav-item ml-md-5"><a href="index.html" class="nav-link font-weight-bold">Contacto</a></li>
+				</ul>
+			</div>
+	
+		</nav>
+
+		<!--SLIDER -->
+		<div id="demo" class="carousel slide" data-ride="carousel" width="50px">
+
+			<!-- Indicadores -->
+			<ul class="carousel-indicators">
+			  <li data-target="#demo" data-slide-to="0" class="active"></li>
+			  <li data-target="#demo" data-slide-to="1"></li>
+			  <li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+		  
+			<!-- Muestra de imágenes del slider -->
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="images/banner.jpg" alt="">
+				<div class="carousel-caption">
+					<h3>Los mejores platos a su alcance</h3>
+				  </div> 
+			  </div>
+			  <div class="carousel-item">
+				<img src="images/banner1.jpg">
+				<div class="carousel-caption">
+					<h3>Exquisitas pizzas hecho con las mejores estándares de calidad</h3>
+				  </div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="images/banner2.jpg" alt="">
+				<div class="carousel-caption">
+					<h3>Los esperamos en nuestra tienda. También con reparto a domicilio!</h3>
+				  </div>
+			  </div>
+			</div>
+		  
+			<!-- Controles de derecha e izquierda -->
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			  <span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+			  <span class="carousel-control-next-icon"></span>
+			</a>
+		  
+		  </div>
+		
+
+<!-- FOOTER -->
+<footer class="page-footer font-small pt-2" style="background-color: black;">
+
+	<div class="container-fluid text-center text-md-left my-4">
+  
+	  <div class="row">
+  
+		<!-- Columna vacía por razones de visibilidad del sitio responsivo -->
+		<div class="col-md-2 mt-0">
+  
+		 
+  
+		</div>
+  
+		<hr class="clearfix w-100 d-md-none pb-3">
+
+		<div class="col-md-5 mb-md-3 mb-3">
+  
+		  <!-- Columna Menú -->
+		  <h5 class="text-uppercase text-danger">Menú</h5>
+  
+		  <ul class="list-unstyled menu-footer">
+			<li>
+			  <a href="index.html">Inicio</a>
+			</li>
+			<li>
+			  <a href="index.html">Nuestros Platos</a>
+			</li>
+			<li>
+			  <a href="index.html">Contacto</a>
+			</li>
+		  </ul>
+  
+		</div>
+  
+		<!-- Columna contacto -->
+		<div class="col-md-4 mb-md-0 mb-3">
+  
+		  <!-- Links -->
+		  <h5 class="text-uppercase text-danger">Contacto</h5>
+  
+		  <ul class="list-unstyled">
+			<li>
+				<i class="fa fa-map-marker align-middle text-danger mr-2"></i>
+				<a href="https://www.google.com/maps/place/Prat+240,+Quillota,+Valpara%C3%ADso/@-32.8770728,-71.2478883,17z/data=!3m1!4b1!4m5!3m4!1s0x9689cd9c81f28829:0xea37883444701e6a!8m2!3d-32.8770728!4d-71.2456996" target="_blank">Prat 240, Quillota</a>
+			</li>
+			<li>
+				<i class="fa fa-phone align-middle text-danger mr-2"></i>
+				<a href="tel:332416798">332416798</a>
+			</li>
+			<li>
+				<i class="fab fa-whatsapp align-middle text-danger mr-2"></i>
+				<a href="https://api.whatsapp.com/send?phone=56912345678&text=Hola, quiero hacer una consulta" target="_blank">+56912345678</a>
+			</li>
+			<li>
+				<i class="fas fa-envelope align-middle text-danger mr-2"></i>
+				<a href="mailto:contacto@ciisahot.cl"> contacto@ciisahot.cl</a>
+			</li>
+		  </ul>
+  
+		</div>
+  
+	  </div>
+  
+	</div>
+
+	<!-- Sección Copyright -->
+	<div class="footer-copyright text-center py-3 bg-success text-white text-uppercase font-weight-bold">© 2020 Copyright:
+	 Todos los Derechos Reservados - CIISA HOT LTDA.
+	</div>
+  
+  </footer>
+
+</body>
+
+</html>
+
+			
